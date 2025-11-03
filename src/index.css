@@ -41,32 +41,40 @@ layer(base);
   --color-white: #ffffff;
   --color-black: #101828;
 
-  --color-brand-25: #f0f9ff;
-  --color-brand-50: #e0f2fe;
-  --color-brand-100: #bae6fd;
-  --color-brand-200: #7dd3fc;
-  --color-brand-300: #38bdf8;
-  --color-brand-400: #0ea5e9;
-  --color-brand-500: #0284c7;
-  --color-brand-600: #0369a1; 
-  --color-brand-700: #075985;
-  --color-brand-800: #0c4a6e;
-  --color-brand-900: #082f49;
-  --color-brand-950: #0c1220;
 
-  --color-purble-light-25: #fdf7fb;   /* أفتح خلفية */
+  /* ===== Brand (Dark Blue / Navy) =====
+     Tuned to match the CP logotype */
+  --color-brand-25:  #f4f7fb;
+  --color-brand-50:  #e9eef6;
+  --color-brand-100: #cfd9e8;
+  --color-brand-200: #a6b8d3;
+  --color-brand-300: #7895bb;
+  --color-brand-400: #4d6ea0;
+  --color-brand-500: #2c4f85;  /* primary */
+  --color-brand-600: #1f3c6b;  /* hover */
+  --color-brand-700: #162e56;  /* sidebar base */
+  --color-brand-800: #0f2446;  /* header */
+  --color-brand-900: #0a1a35;  /* darkest shells */
+  --color-brand-950:#071226;
+
+  /* Accent (Logo yellow for highlights/badges) */
+  --color-accent-400: #ffd166;
+  --color-accent-500: #f5b700;
+  --color-accent-600: #d29c00;
+
+  /* Extra palette already used across the app */
+  --color-purble-light-25: #fdf7fb;
   --color-purble-light-50: #fbeffd;
   --color-purble-light-100: #f9e0f3;
   --color-purble-light-200: #f3c1e2;
   --color-purble-light-300: #e79acc;
   --color-purble-light-400: #d56bb1;
-  --color-purble-light-500: #b73f94;  /* الأساسي بينك موف */
+  --color-purble-light-500: #b73f94;
   --color-purble-light-600: #912f74;
   --color-purble-light-700: #722356;
   --color-purble-light-800: #51183d;
   --color-purble-light-900: #37102a;
-  --color-purble-light-950: #45072E;  /* أغمق درجة */
-
+  --color-purble-light-950: #45072e;
 
   --color-gray-25: #fcfcfd;
   --color-gray-50: #f9fafb;

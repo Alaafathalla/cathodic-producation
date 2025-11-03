@@ -7,7 +7,7 @@ import PageCard from "../../components/ui/PageCard";
 
 export default function Home() {
   return (
-    <PageLayout title="Dashboard | prof">
+    <PageLayout title="Dashboard | CP">
       <PageHeader 
         title="Professional Cathodic Protection Calculator"
         description=" "

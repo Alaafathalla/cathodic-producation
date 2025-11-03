@@ -15,8 +15,8 @@ export default function AuthLayout({ children }) {
                 <img
                   width={450}
                   height={100}
-                  src="/images/logo/profLogo.png"
-                  alt="logo2"
+                  src="/images/logo/logoos.jpg"
+                  alt="logoos"
                 />
               </Link>
             </div>

@@ -1,7 +1,7 @@
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const PageMeta = ({
-  title = "Dashboard | prof",
+  title = "Dashboard | CP",
   description = "professional Dashboard for Cathodic Protection Services",
 }) => (
   <Helmet>

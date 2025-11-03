@@ -88,12 +88,12 @@ const AppHeader = () => {
             <img
               className="dark:hidden"
               src="./images/logo.png"
-              alt="logo2"
+              alt="logoos"
             />
             <img
               className="hidden dark:block"
-              src="./images/logo/logo2-dark.svg"
-              alt="logo2"
+              src="./images/logo/logoos-dark.svg"
+              alt="logoos"
             />
           </Link> */}
 

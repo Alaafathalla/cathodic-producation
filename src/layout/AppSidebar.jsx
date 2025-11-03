@@ -102,24 +102,24 @@ const AppSidebar = () => {
           {isExpanded || isHovered || isMobileOpen ? (
             <>
               <img
-                className="dark:hidden"
-                src="/images/logo/profLogo.png"
-                alt="logo2"
+                className="dark:hidden rounded-full"
+                src="/images/logo/logoos.jpg"
+                alt="logoos"
                 width={100}
                 height={40}
               />
               <img
                 className="hidden dark:block"
-                src="/images1/logo/logo2-dark.svg"
-                alt="logo2"
+                src="/images1/logo/logoos-dark.svg"
+                alt="logoos"
                 width={100}
                 height={30}
               />
             </>
           ) : (
             <img
-              src="/images/logo/logo2.png"
-              alt="logo2"
+              src="/images/logo/logoos.jpg"
+              alt="logoos"
               width={150}
               height={120}
             />
