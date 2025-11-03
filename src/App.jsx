@@ -14,6 +14,7 @@ import Card from "./components/ui/card.jsx";
 import AppLayout from "./layout/AppLayout";
 import Home from "./pages/Dashboard/Home";
 import Form from "./pages/Form";
+import SurfaceAreaPage from "./pages/SurfaceArea/SurfaceAreaPage";
 
 
 // GuestOnlyRoute: only guests (not logged-in)
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
   
           { path: "/form", element: <Form /> },
           { path: "/card", element: <Card /> },
+          { path: "/surface-area", element: <SurfaceAreaPage /> },
         ],
   },
   {

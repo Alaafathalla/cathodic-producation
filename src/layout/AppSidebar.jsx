@@ -23,22 +23,22 @@ import { useSidebar } from "../context/SidebarContext";
 import SidebarWidget from "./SidebarWidget";
 
 const navItems = [
-  { name: "Attenuation & Pipeline Potential profile", icon: <MdTimeline />,            path: "/modules/attenuation-profile" },
-  { name: "Barnes Layer Resistivity",                 icon: <MdLayers />,             path: "/modules/barnes-layer-resistivity" },
-  { name: "Circuit Resistance Module",                icon: <MdCable />,              path: "/modules/circuit-resistance" },
-  { name: "Coating Factors Calculation",              icon: <MdFormatPaint />,        path: "/modules/coating-factors" },
-  { name: "Current Density Calculation",              icon: <MdWaterDrop />,          path: "/modules/current-density" },
-  { name: "Galvanic Anode System Calculation",        icon: <MdBatteryChargingFull />,path: "/modules/galvanic-anode" },
-  { name: "Groundbed Resistance",                     icon: <MdLandscape />,          path: "/modules/groundbed-resistance" },
-  { name: "Impressed Current System Calculation",     icon: <MdBolt />,               path: "/modules/impressed-current" },
-  { name: "Interference Calculation",                 icon: <MdWifiTethering />,      path: "/modules/interference" },
-  { name: "Rectifier Ratings",                        icon: <MdPowerSettingsNew />,   path: "/modules/rectifier-ratings" },
-  { name: "Soil Resistivity",                         icon: <MdScience />,            path: "/modules/soil-resistivity" },
-  { name: "Solar Sizing",                             icon: <MdSolarPower />,         path: "/modules/solar-sizing" },
-  { name: "Surface Area Calculation",                 icon: <MdGridOn />,             path: "/modules/surface-area" },
-  { name: "Tank MMO Anode Sizing",                    icon: <MdBlurCircular />,       path: "/modules/tank-mmo-sizing" },
-  { name: "Variable Resistor & Shunt Resistor Sizing",icon: <MdTune />,               path: "/modules/variable-shunt-sizing" },
-  { name: "Voltage Gradient",                         icon: <MdShowChart />,          path: "/modules/voltage-gradient" },
+  { name: "Attenuation & Pipeline Potential profile", icon: <MdTimeline />,            path: "/pages/attenuation-profile" },
+  { name: "Barnes Layer Resistivity",                 icon: <MdLayers />,             path: "/pages/barnes-layer-resistivity" },
+  { name: "Circuit Resistance Module",                icon: <MdCable />,              path: "/pages/circuit-resistance" },
+  { name: "Coating Factors Calculation",              icon: <MdFormatPaint />,        path: "/pages/coating-factors" },
+  { name: "Current Density Calculation",              icon: <MdWaterDrop />,          path: "/pages/current-density" },
+  { name: "Galvanic Anode System Calculation",        icon: <MdBatteryChargingFull />,path: "/pages/galvanic-anode" },
+  { name: "Groundbed Resistance",                     icon: <MdLandscape />,          path: "/pages/groundbed-resistance" },
+  { name: "Impressed Current System Calculation",     icon: <MdBolt />,               path: "/pages/impressed-current" },
+  { name: "Interference Calculation",                 icon: <MdWifiTethering />,      path: "/pages/interference" },
+  { name: "Rectifier Ratings",                        icon: <MdPowerSettingsNew />,   path: "/pages/rectifier-ratings" },
+  { name: "Soil Resistivity",                         icon: <MdScience />,            path: "/pages/soil-resistivity" },
+  { name: "Solar Sizing",                             icon: <MdSolarPower />,         path: "/pages/solar-sizing" },
+  { name: "Surface Area Calculation",                 icon: <MdGridOn />,             path: "/surface-area" },
+  { name: "Tank MMO Anode Sizing",                    icon: <MdBlurCircular />,       path: "/pages/tank-mmo-sizing" },
+  { name: "Variable Resistor & Shunt Resistor Sizing",icon: <MdTune />,               path: "/pages/variable-shunt-sizing" },
+  { name: "Voltage Gradient",                         icon: <MdShowChart />,          path: "/pages/voltage-gradient" },
 ];
 
 const AppSidebar = () => {
