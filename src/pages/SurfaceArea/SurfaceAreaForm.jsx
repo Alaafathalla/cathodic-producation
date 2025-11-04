@@ -46,7 +46,7 @@ export default function SurfaceAreaForm(props) {
   );
 
   const SectionCard = ({ title, subtitle, children, actions }) => (
-    <div className="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white/60 dark:bg-gray-900/40 backdrop-blur p-4 md:p-6">
+    <div className="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900/40 backdrop-blur p-4 md:p-6">
       <div className="mb-4 flex items-start justify-between">
         <div>
           <h3 className="text-base md:text-lg font-semibold text-gray-900 dark:text-gray-100">{title}</h3>

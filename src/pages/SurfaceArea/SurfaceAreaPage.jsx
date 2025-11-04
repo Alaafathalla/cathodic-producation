@@ -202,7 +202,7 @@ export default class SurfaceAreaPage extends React.Component {
 
   InfoCard = () => {
     const { structureType } = this.state;
-    const baseClass = "rounded-2xl border border-gray-200 dark:border-gray-700 bg-white/60 dark:bg-gray-900/40 backdrop-blur p-4 md:p-6 sticky top-4";
+    const baseClass = "rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900/40 backdrop-blur p-4 md:p-6 sticky top-4";
 
     if (structureType === 'pipeline') {
       return (

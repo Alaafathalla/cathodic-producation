@@ -84,7 +84,7 @@ export default class SurfaceAreaResults extends React.Component {
         <button
           type="button"
           onClick={() => this.exportCSV()}
-          className="text-xs rounded-full border border-gray-200 dark:border-gray-700 px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800"
+          className="text-xs rounded-full border border-gray-200 dark:border-gray-700 px-3 py-1 mx-2 hover:bg-gray-50 dark:hover:bg-gray-800"
           title="Export CSV"
         >CSV</button>
         {/* <button
@@ -135,7 +135,7 @@ export default class SurfaceAreaResults extends React.Component {
     if (!results) return null;
 
     const Card = ({ children }) => (
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white/60 dark:bg-gray-900/40 backdrop-blur p-4 md:p-6">
+      <div className="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900/40 backdrop-blur p-4 md:p-6">
         {children}
       </div>
     );
