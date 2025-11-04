@@ -11,14 +11,16 @@ export default function AuthLayout({ children }) {
           <div className="relative flex items-center justify-center z-1">
             <GridShape />
             <div className="flex flex-col items-center max-w-xs">
-              <Link to="/" className="block mb-4">
-                <img
-                  width={450}
-                  height={100}
-                  src="/images/logo/logoos.jpg"
-                  alt="logoos"
-                />
-              </Link>
+<Link to="/" className="block mb-4">
+  <img
+    width={350}
+    height={80}
+    src="/images/logo/logoos.jpg"
+    style={{ borderRadius: '50%', objectFit: 'cover' }}
+    alt="logoos"
+  />
+</Link>
+
             </div>
           </div>
         </div>

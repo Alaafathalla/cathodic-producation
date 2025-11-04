@@ -10,6 +10,9 @@ export default function CalculatorPanel({ title, subtitle, left, right, footer }
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{subtitle}</p>
           ) : null}
         </div>
+        {/* {headerActions ? (
+          <div className="flex items-center gap-2">{headerActions}</div>
+        ) : null} */}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
